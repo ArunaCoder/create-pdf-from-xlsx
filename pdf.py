@@ -308,11 +308,7 @@ def create_interactive_pdf_v4(excel_path, pdf_title_input):
 
 
 if __name__ == "__main__":
-    # Caminho do arquivo Excel e título do PDF já definidos
-    # excel_file_input = (
-    #     "checklist_empresas.xlsx"  # substitua pelo nome real do seu arquivo
-    # )
-    # base_title = "Checklist garantia da União (empresa estatal)"
+
     today_str = datetime.today().strftime("%d-%m-%Y")
     pdf_title_input_main = f"{base_title} {today_str}"
 
